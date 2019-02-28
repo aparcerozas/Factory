@@ -16,6 +16,8 @@ public class ExFactory {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String frase = IO.introducirString(IO.CONSOLA, "Introducir String:");
+        IO.imprimir(IO.VENTANA, frase);
     }
     
 }
